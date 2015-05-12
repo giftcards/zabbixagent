@@ -1,0 +1,3 @@
+Cmnd_Alias RABBIT = /usr/local/bin/poll_rabbit.sh
+zabbix ALL=RABBIT, NOPASSWD: RABBIT
+Defaults:zabbix !requiretty
